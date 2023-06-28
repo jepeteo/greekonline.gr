@@ -1,0 +1,25 @@
+/* Print Style Sheet */
+@media print {
+body                                            { background:white; color:black; margin:0; font-size:12px !important; }
+#new-container                                  { width:100%;}
+.jr-new-search, #breadcrumbs, .jr-new-map, #footer, .jr-new-gallery ul
+                                                { display:none; }
+.jr-new-tags a                                  { color: black !important; padding: 0px !important; margin: 0 8px 0 0 !important ; box-shadow:none !important; font-size: 12px !important; }
+.new-teo-tagline                                { font-size: 32px !important;}
+.jr-new-content img, .size-tablet-post          { display:none !important; }
+#header                                         { display:none !important; }
+#new-content                                    { box-shadow:none !important; }
+.new-post-head-social                           { display:none !important; }
+.new-entry-title                                { border-bottom:2px groove #999 !important; }
+.jr-new-gallery, .jr-new-tags                   { border-top:2px groove #999 !important; }
+.jr-new-content, .jr-new-extra-content          { border:0 groove #999 !important; }  
+.ext-maplink, .jr-new-contact-per, .new-post-head-phone a, .new-mobile, .new-fax, .new-post-head-webemail a, .new-post-head-video, .jr-new-tags a
+                                                { box-shadow:none !important;}
+.new-post-cats a, .ext-maplink                  { color:black !important; }
+
+header.et-l.et-l--header                        { display: none; }
+footer.et-l.et-l--footer                        { display: none; }
+div#wpfront-scroll-top-container                { display: none; }
+	img.jr-new-right-box						{ display: none; }
+
+}

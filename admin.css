@@ -1,0 +1,36 @@
+/* Διαχειριστικό Καταχώρησης */
+.no-lbl .acf-label                      { display:none; }
+.acf-fields                             { background-color:#cceeffaa; }
+.acf-fields > .acf-field                { padding: 10px 8px;}
+.acf-editor-wrap                        { margin-top:-34px;}
+
+li#toplevel_page_wpsynchro_menu         { display: none !important; }
+
+.column-new_display {
+  width:100px;
+}
+td.column-new_display {
+  vertical-align:middle;
+}
+.ndisp-old,
+.ndisp-new,
+.ndisp-empty {
+  text-align:center;
+}
+.ndisp-old span:before{
+  font-family:"ETModules";
+  font-size:24px;
+  content:"\e063";
+  color: #ffcc00;
+}
+.ndisp-empty span:before{
+  font-family:"ETModules";
+  font-size:24px;
+  content:"\e064";
+}
+.ndisp-new span:before{
+  font-family:"ETModules";
+  font-size:24px;
+  content:"\e052";
+  color: #88cc44;
+}
